@@ -1,12 +1,12 @@
-package io.threethirtythree.effectivekotlin
+package io.threethirtythree.ricknmorty
 
 import android.app.Activity
 import android.content.Intent
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.text.TextUtils
 import android.widget.Button
 import android.widget.EditText
+import androidx.appcompat.app.AppCompatActivity
 
 class NewActivity : AppCompatActivity() {
     private lateinit var editWordView: EditText

@@ -1,18 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="io.threethirtythree.effectivekotlin" >
+    package="io.threethirtythree.ricknmorty" >
+    <uses-permission android:name="android.permission.INTERNET" />
 
     <application
-        android:name=".MVVMApplication"
+        android:name="io.threethirtythree.ricknmorty.app.CustomApp"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme" >
-        <activity android:name=".NewActivity" >
+        <activity android:name="io.threethirtythree.ricknmorty.NewActivity" >
         </activity>
-        <activity android:name=".MainActivity" >
+        <activity android:name="io.threethirtythree.ricknmorty.MainActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
